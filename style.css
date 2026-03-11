@@ -1,0 +1,86 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background: linear-gradient(120deg,#ff9a9e,#fad0c4,#fbc2eb,#a6c1ee);
+background-size:400% 400%;
+animation:bgmove 15s infinite alternate;
+color:#333;
+}
+
+@keyframes bgmove{
+0%{background-position:left;}
+100%{background-position:right;}
+}
+
+header{
+background:#ff6f61;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#6a5acd;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd700;
+}
+
+.container{
+width:85%;
+margin:auto;
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1,h2,h3{
+color:#ff4500;
+}
+
+ul{
+line-height:1.8;
+}
+
+footer{
+background:#6a5acd;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+background:#ff4500;
+color:white;
+border:none;
+padding:10px 20px;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e03e00;
+}
